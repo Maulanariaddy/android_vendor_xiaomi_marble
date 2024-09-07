@@ -4530,7 +4530,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libgoodixhwfingerprint.so"],
-			shared_libs: ["libutils", "libcutils", "libc++", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "vendor.xiaomi.hardware.fx.tunnel@1.0", "libgf_hal", "libgf_ca", "libc", "libm", "libdl", ],
+			shared_libs: ["libutils", "libcutils", "libc++", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "libgf_hal", "libgf_ca", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
