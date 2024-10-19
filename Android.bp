@@ -2026,7 +2026,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib64/camera/libQnnHtpV69.so"],
 			shared_libs: [ ],
 		},
@@ -2044,7 +2044,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib64/camera/libQnnHtpV69Skel.so"],
 			shared_libs: [ ],
 		},
@@ -6987,23 +6987,6 @@ prebuilt_rfsa {
 	src: "proprietary/vendor/lib/rfsa/adsp/misound_res_spk4ch.bin",
 	relative_install_path: "adsp",
 	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.fx.tunnel@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	device_specific: true,
 }
 
 prebuilt_etc_xml {
