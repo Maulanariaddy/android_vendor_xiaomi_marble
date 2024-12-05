@@ -1086,7 +1086,7 @@ PRODUCT_PACKAGES += \
     misound_res_headphone \
     misound_res_spk \
     misound_res_spk4ch \
-    vendor.dolby.hardware.dms \
+    manifest_vendor.dolby.hardware.dms.xml \
     vendor.xiaomi.hardware.quickcamera@1.0-service \
     batterysecret \
     vendor.dolby.hardware.dms@2.0-service \
