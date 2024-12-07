@@ -3507,14 +3507,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "audio.primary.taro",
+	name: "audio.primary.taro-marble",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/audio.primary.taro.so"],
+			srcs: ["proprietary/vendor/lib64/hw/audio.primary.taro-marble.so"],
 			shared_libs: ["libbase", "liblog", "libcutils", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libultrasound_notify", "libar-pal", "libresampler", "libhardware_legacy", "libaudiocloudctrl", "gyro_fusion_interface", "libstagefright_foundation-v33", "libtinyalsa", "libxlog", "vendor.qti.hardware.pal@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
@@ -4820,7 +4820,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libkaraokepal.so"],
-			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "audio.primary.taro", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libaudioroute", "libaudioutils", "libcutils", "libexpat", "liblog", "libar-pal", "audio.primary.taro-marble", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
